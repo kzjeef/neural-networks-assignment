@@ -111,6 +111,9 @@ for i=1:num_neg_examples
     x = this_case'; %Hint
     activation = this_case*w;
     if (activation >= 0)
+               % miss classify as postive. means it was too big., need decrease.
+      dec = [x(1); x(2); 1];
+      w = w - dec;
         %YOUR CODE HERE
     end
 end
@@ -119,6 +122,8 @@ for i=1:num_pos_examples
     x = this_case';
     activation = this_case*w;
     if (activation < 0)
+      inc = [x(1); x(2); 1];
+      w = w + inc;
         %YOUR CODE HERE
     end
 end
