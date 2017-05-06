@@ -1,0 +1,1596 @@
+
+* Train(1) mem = 0.5, rate = 0.001
+>> train(1); % 0.001
+Epoch 1
+Batch 100 Train CE 5.366
+Batch 200 Train CE 5.058
+Batch 300 Train CE 4.873
+Batch 400 Train CE 4.803
+Batch 500 Train CE 4.731
+Batch 600 Train CE 4.726
+Batch 700 Train CE 4.653
+Batch 800 Train CE 4.623
+Batch 900 Train CE 4.636
+Batch 1000 Train CE 4.587
+Running validation ... Validation CE 4.586
+Batch 1100 Train CE 4.564
+Batch 1200 Train CE 4.568
+Batch 1300 Train CE 4.564
+Batch 1400 Train CE 4.560
+Batch 1500 Train CE 4.507
+Batch 1600 Train CE 4.528
+Batch 1700 Train CE 4.508
+Batch 1800 Train CE 4.502
+Batch 1900 Train CE 4.500
+Batch 2000 Train CE 4.474
+Running validation ... Validation CE 4.487
+Batch 2100 Train CE 4.488
+Batch 2200 Train CE 4.470
+Batch 2300 Train CE 4.488
+Batch 2400 Train CE 4.461
+Batch 2500 Train CE 4.470
+Batch 2600 Train CE 4.486
+Batch 2700 Train CE 4.480
+Batch 2800 Train CE 4.457
+Batch 2900 Train CE 4.450
+Batch 3000 Train CE 4.432
+Running validation ... Validation CE 4.448
+Batch 3100 Train CE 4.433
+Batch 3200 Train CE 4.437
+Batch 3300 Train CE 4.415
+Batch 3400 Train CE 4.443
+Batch 3500 Train CE 4.420
+Batch 3600 Train CE 4.436
+Batch 3700 Train CE 4.413
+Average Training CE 4.567
+Finished Training.
+Final Training CE 4.567
+Final Validation CE 4.432
+Final Test CE 4.439
+Training took 50.99 seconds
+
+* Train(1) mem = 0.5, rate = 0.01
+>> train(1); % 0.01
+Epoch 1
+Batch 100 Train CE 4.845
+Batch 200 Train CE 4.537
+Batch 300 Train CE 4.457
+Batch 400 Train CE 4.440
+Batch 500 Train CE 4.396
+Batch 600 Train CE 4.435
+Batch 700 Train CE 4.383
+Batch 800 Train CE 4.371
+Batch 900 Train CE 4.421
+Batch 1000 Train CE 4.391
+Running validation ... Validation CE 4.395
+Batch 1100 Train CE 4.384
+Batch 1200 Train CE 4.405
+Batch 1300 Train CE 4.403
+Batch 1400 Train CE 4.414
+Batch 1500 Train CE 4.382
+Batch 1600 Train CE 4.398
+Batch 1700 Train CE 4.384
+Batch 1800 Train CE 4.386
+Batch 1900 Train CE 4.392
+Batch 2000 Train CE 4.369
+Running validation ... Validation CE 4.389
+Batch 2100 Train CE 4.395
+Batch 2200 Train CE 4.384
+Batch 2300 Train CE 4.394
+Batch 2400 Train CE 4.376
+Batch 2500 Train CE 4.388
+Batch 2600 Train CE 4.408
+Batch 2700 Train CE 4.414
+Batch 2721 Train CE 4.3752017-05-06 15:26:09.621 octave-gui[23803:7785327] modalSession has been exited prematurely - check for a reentrant call to endModalSession:
+Batch 2800 Train CE 4.386
+Batch 2900 Train CE 4.382
+Batch 3000 Train CE 4.364
+Running validation ... Validation CE 4.384
+Batch 3100 Train CE 4.375
+Batch 3200 Train CE 4.377
+Batch 3300 Train CE 4.357
+Batch 3400 Train CE 4.383
+Batch 3500 Train CE 4.370
+Batch 3600 Train CE 4.383
+Batch 3700 Train CE 4.365
+Average Training CE 4.408
+Finished Training.
+Final Training CE 4.408
+Final Validation CE 4.384
+Final Test CE 4.391
+Training took 52.28 seconds
+
+* Train(1) mem = 0.5, rate = 0.1
+>> train(1); % 0.1
+Epoch 1
+Batch 100 Train CE 4.523
+Batch 200 Train CE 4.425
+Batch 300 Train CE 4.394
+Batch 400 Train CE 4.405
+Batch 500 Train CE 4.377
+Batch 600 Train CE 4.427
+Batch 700 Train CE 4.383
+Batch 800 Train CE 4.372
+Batch 900 Train CE 4.429
+Batch 1000 Train CE 4.399
+Running validation ... Validation CE 4.402
+Batch 1100 Train CE 4.394
+Batch 1200 Train CE 4.418
+Batch 1300 Train CE 4.415
+Batch 1400 Train CE 4.424
+Batch 1500 Train CE 4.399
+Batch 1600 Train CE 4.412
+Batch 1700 Train CE 4.399
+Batch 1800 Train CE 4.402
+Batch 1900 Train CE 4.407
+Batch 2000 Train CE 4.385
+Running validation ... Validation CE 4.405
+Batch 2100 Train CE 4.410
+Batch 2200 Train CE 4.401
+Batch 2300 Train CE 4.413
+Batch 2400 Train CE 4.396
+Batch 2500 Train CE 4.406
+Batch 2600 Train CE 4.430
+Batch 2700 Train CE 4.433
+Batch 2800 Train CE 4.402
+Batch 2900 Train CE 4.399
+Batch 3000 Train CE 4.381
+Running validation ... Validation CE 4.408
+Batch 3100 Train CE 4.395
+Batch 3200 Train CE 4.398
+Batch 3300 Train CE 4.375
+Batch 3400 Train CE 4.400
+Batch 3500 Train CE 4.387
+Batch 3600 Train CE 4.400
+Batch 3700 Train CE 4.383
+Average Training CE 4.405
+Finished Training.
+Final Training CE 4.405
+Final Validation CE 4.394
+Final Test CE 4.402
+Training took 50.72 seconds
+
+* Train(1) mem = 0.5, rate = 10
+>> train(1); % rate=10
+Epoch 1
+Batch 100 Train CE 5.025
+Batch 200 Train CE 4.327
+Batch 300 Train CE 4.284
+Batch 400 Train CE 4.271
+Batch 500 Train CE 4.152
+Batch 600 Train CE 4.056
+Batch 700 Train CE 3.943
+Batch 800 Train CE 3.869
+Batch 900 Train CE 3.847
+Batch 1000 Train CE 3.783
+Running validation ... Validation CE 3.762
+Batch 1100 Train CE 3.714
+Batch 1200 Train CE 3.677
+Batch 1300 Train CE 3.641
+Batch 1400 Train CE 3.634
+Batch 1500 Train CE 3.575
+Batch 1600 Train CE 3.587
+Batch 1700 Train CE 3.564
+Batch 1800 Train CE 3.584
+Batch 1900 Train CE 3.544
+Batch 2000 Train CE 3.546
+Running validation ... Validation CE 3.557
+Batch 2100 Train CE 3.557
+Batch 2200 Train CE 3.591
+Batch 2300 Train CE 3.569
+Batch 2400 Train CE 3.562
+Batch 2500 Train CE 3.538
+Batch 2600 Train CE 3.552
+Batch 2700 Train CE 3.551
+Batch 2800 Train CE 3.483
+Batch 2900 Train CE 3.476
+Batch 3000 Train CE 3.453
+Running validation ... Validation CE 3.487
+Batch 3100 Train CE 3.467
+Batch 3200 Train CE 3.436
+Batch 3300 Train CE 3.412
+Batch 3400 Train CE 3.468
+Batch 3500 Train CE 3.429
+Batch 3600 Train CE 3.445
+Batch 3700 Train CE 3.379
+Average Training CE 3.701
+Finished Training.
+Final Training CE 3.701
+Final Validation CE 3.437
+Final Test CE 3.429
+Training took 50.56 seconds
+
+
+
+
+
+* Train(10) mem = 0.5, rate =10 
+# rate = 10, mem = 5 , 10次
+
+** log
+>> train(10);
+Epoch 1
+Batch 100 Train CE 5.034
+Batch 200 Train CE 4.332
+Batch 300 Train CE 4.285
+Batch 400 Train CE 4.277
+Batch 500 Train CE 4.143
+Batch 600 Train CE 4.089
+Batch 700 Train CE 3.947
+Batch 800 Train CE 3.856
+Batch 900 Train CE 3.841
+Batch 1000 Train CE 3.782
+Running validation ... Validation CE 3.774
+Batch 1100 Train CE 3.712
+Batch 1200 Train CE 3.673
+Batch 1300 Train CE 3.609
+Batch 1400 Train CE 3.586
+Batch 1500 Train CE 3.543
+Batch 1600 Train CE 3.526
+Batch 1700 Train CE 3.506
+Batch 1800 Train CE 3.507
+Batch 1900 Train CE 3.491
+Batch 2000 Train CE 3.476
+Running validation ... Validation CE 3.490
+Batch 2100 Train CE 3.473
+Batch 2200 Train CE 3.490
+Batch 2300 Train CE 3.468
+Batch 2400 Train CE 3.493
+Batch 2500 Train CE 3.508
+Batch 2600 Train CE 3.533
+Batch 2700 Train CE 3.528
+Batch 2800 Train CE 3.482
+Batch 2900 Train CE 3.471
+Batch 3000 Train CE 3.444
+Running validation ... Validation CE 3.484
+Batch 3100 Train CE 3.447
+Batch 3200 Train CE 3.451
+Batch 3300 Train CE 3.410
+Batch 3400 Train CE 3.466
+Batch 3500 Train CE 3.426
+Batch 3600 Train CE 3.447
+Batch 3700 Train CE 3.394
+Average Training CE 3.678
+Epoch 2
+Batch 100 Train CE 2.736
+Batch 200 Train CE 3.425
+Batch 300 Train CE 3.393
+Batch 400 Train CE 3.421
+Batch 500 Train CE 3.383
+Batch 600 Train CE 3.442
+Batch 700 Train CE 3.417
+Batch 800 Train CE 3.384
+Batch 900 Train CE 3.421
+Batch 1000 Train CE 3.417
+Running validation ... Validation CE 3.415
+Batch 1100 Train CE 3.370
+Batch 1200 Train CE 3.403
+Batch 1300 Train CE 3.384
+Batch 1400 Train CE 3.442
+Batch 1500 Train CE 3.409
+Batch 1600 Train CE 3.399
+Batch 1700 Train CE 3.386
+Batch 1800 Train CE 3.455
+Batch 1900 Train CE 3.393
+Batch 2000 Train CE 3.372
+Running validation ... Validation CE 3.399
+Batch 2100 Train CE 3.393
+Batch 2200 Train CE 3.403
+Batch 2300 Train CE 3.377
+Batch 2400 Train CE 3.376
+Batch 2500 Train CE 3.364
+Batch 2600 Train CE 3.414
+Batch 2700 Train CE 3.430
+Batch 2800 Train CE 3.393
+Batch 2900 Train CE 3.383
+Batch 3000 Train CE 3.385
+Running validation ... Validation CE 3.402
+Batch 3100 Train CE 3.362
+Batch 3200 Train CE 3.354
+Batch 3300 Train CE 3.343
+Batch 3400 Train CE 3.374
+Batch 3500 Train CE 3.364
+Batch 3600 Train CE 3.385
+Batch 3700 Train CE 3.335
+Average Training CE 3.394
+Epoch 3
+Batch 100 Train CE 2.683
+Batch 200 Train CE 3.357
+Batch 300 Train CE 3.354
+Batch 400 Train CE 3.370
+Batch 500 Train CE 3.349
+Batch 600 Train CE 3.403
+Batch 700 Train CE 3.374
+Batch 800 Train CE 3.342
+Batch 900 Train CE 3.374
+Batch 1000 Train CE 3.369
+Running validation ... Validation CE 3.359
+Batch 1100 Train CE 3.327
+Batch 1200 Train CE 3.345
+Batch 1300 Train CE 3.319
+Batch 1400 Train CE 3.375
+Batch 1500 Train CE 3.362
+Batch 1600 Train CE 3.354
+Batch 1700 Train CE 3.335
+Batch 1800 Train CE 3.384
+Batch 1900 Train CE 3.331
+Batch 2000 Train CE 3.324
+Running validation ... Validation CE 3.347
+Batch 2100 Train CE 3.325
+Batch 2200 Train CE 3.363
+Batch 2300 Train CE 3.342
+Batch 2400 Train CE 3.338
+Batch 2500 Train CE 3.344
+Batch 2600 Train CE 3.377
+Batch 2700 Train CE 3.394
+Batch 2800 Train CE 3.347
+Batch 2900 Train CE 3.356
+Batch 3000 Train CE 3.341
+Running validation ... Validation CE 3.361
+Batch 3100 Train CE 3.351
+Batch 3200 Train CE 3.336
+Batch 3300 Train CE 3.311
+Batch 3400 Train CE 3.352
+Batch 3500 Train CE 3.339
+Batch 3600 Train CE 3.357
+Batch 3700 Train CE 3.315
+Average Training CE 3.351
+Epoch 4
+Batch 100 Train CE 2.672
+Batch 200 Train CE 3.344
+Batch 300 Train CE 3.347
+Batch 400 Train CE 3.338
+Batch 500 Train CE 3.312
+Batch 600 Train CE 3.352
+Batch 700 Train CE 3.350
+Batch 800 Train CE 3.320
+Batch 900 Train CE 3.353
+Batch 1000 Train CE 3.357
+Running validation ... Validation CE 3.347
+Batch 1100 Train CE 3.311
+Batch 1200 Train CE 3.333
+Batch 1300 Train CE 3.328
+Batch 1400 Train CE 3.365
+Batch 1500 Train CE 3.339
+Batch 1600 Train CE 3.321
+Batch 1700 Train CE 3.315
+Batch 1800 Train CE 3.359
+Batch 1900 Train CE 3.317
+Batch 2000 Train CE 3.311
+Running validation ... Validation CE 3.347
+Batch 2100 Train CE 3.326
+Batch 2200 Train CE 3.345
+Batch 2300 Train CE 3.325
+Batch 2400 Train CE 3.308
+Batch 2500 Train CE 3.317
+Batch 2600 Train CE 3.371
+Batch 2700 Train CE 3.378
+Batch 2800 Train CE 3.333
+Batch 2900 Train CE 3.347
+Batch 3000 Train CE 3.332
+Running validation ... Validation CE 3.367
+Batch 3100 Train CE 3.325
+Batch 3200 Train CE 3.321
+Batch 3300 Train CE 3.310
+Batch 3400 Train CE 3.357
+Batch 3500 Train CE 3.350
+Batch 3600 Train CE 3.350
+Batch 3700 Train CE 3.327
+Average Training CE 3.336
+Epoch 5
+Batch 100 Train CE 2.660
+Batch 200 Train CE 3.337
+Batch 300 Train CE 3.325
+Batch 400 Train CE 3.328
+Batch 500 Train CE 3.317
+Batch 600 Train CE 3.335
+Batch 700 Train CE 3.334
+Batch 800 Train CE 3.305
+Batch 900 Train CE 3.352
+Batch 1000 Train CE 3.349
+Running validation ... Validation CE 3.367
+Batch 1100 Train CE 3.309
+Batch 1200 Train CE 3.331
+Batch 1300 Train CE 3.317
+Batch 1400 Train CE 3.368
+Batch 1500 Train CE 3.373
+Batch 1600 Train CE 3.348
+Batch 1700 Train CE 3.342
+Batch 1800 Train CE 3.380
+Batch 1900 Train CE 3.332
+Batch 2000 Train CE 3.323
+Running validation ... Validation CE 3.339
+Batch 2100 Train CE 3.329
+Batch 2200 Train CE 3.350
+Batch 2300 Train CE 3.331
+Batch 2400 Train CE 3.320
+Batch 2500 Train CE 3.338
+Batch 2600 Train CE 3.379
+Batch 2700 Train CE 3.384
+Batch 2800 Train CE 3.332
+Batch 2900 Train CE 3.338
+Batch 3000 Train CE 3.313
+Running validation ... Validation CE 3.343
+Batch 3100 Train CE 3.337
+Batch 3200 Train CE 3.317
+Batch 3300 Train CE 3.305
+Batch 3400 Train CE 3.353
+Batch 3500 Train CE 3.328
+Batch 3600 Train CE 3.334
+Batch 3700 Train CE 3.300
+Average Training CE 3.336
+Epoch 6
+Batch 100 Train CE 2.653
+Batch 200 Train CE 3.332
+Batch 300 Train CE 3.308
+Batch 400 Train CE 3.311
+Batch 500 Train CE 3.340
+Batch 600 Train CE 3.340
+Batch 700 Train CE 3.347
+Batch 800 Train CE 3.328
+Batch 900 Train CE 3.366
+Batch 1000 Train CE 3.351
+Running validation ... Validation CE 3.349
+Batch 1100 Train CE 3.321
+Batch 1200 Train CE 3.351
+Batch 1300 Train CE 3.329
+Batch 1400 Train CE 3.364
+Batch 1500 Train CE 3.358
+Batch 1600 Train CE 3.393
+Batch 1700 Train CE 3.380
+Batch 1800 Train CE 3.424
+Batch 1900 Train CE 3.365
+Batch 2000 Train CE 3.367
+Running validation ... Validation CE 3.370
+Batch 2100 Train CE 3.333
+Batch 2200 Train CE 3.373
+Batch 2300 Train CE 3.362
+Batch 2400 Train CE 3.344
+Batch 2500 Train CE 3.368
+Batch 2600 Train CE 3.412
+Batch 2700 Train CE 3.416
+Batch 2800 Train CE 3.365
+Batch 2900 Train CE 3.363
+Batch 3000 Train CE 3.335
+Running validation ... Validation CE 3.366
+Batch 3100 Train CE 3.331
+Batch 3200 Train CE 3.324
+Batch 3300 Train CE 3.315
+Batch 3400 Train CE 3.373
+Batch 3500 Train CE 3.337
+Batch 3600 Train CE 3.359
+Batch 3700 Train CE 3.332
+Average Training CE 3.352
+Epoch 7
+Batch 100 Train CE 2.679
+Batch 200 Train CE 3.344
+Batch 300 Train CE 3.336
+Batch 400 Train CE 3.334
+Batch 500 Train CE 3.322
+Batch 600 Train CE 3.360
+Batch 700 Train CE 3.345
+Batch 800 Train CE 3.321
+Batch 900 Train CE 3.353
+Batch 1000 Train CE 3.323
+Running validation ... Validation CE 3.333
+Batch 1100 Train CE 3.280
+Batch 1200 Train CE 3.314
+Batch 1300 Train CE 3.295
+Batch 1400 Train CE 3.338
+Batch 1500 Train CE 3.305
+Batch 1600 Train CE 3.300
+Batch 1700 Train CE 3.302
+Batch 1800 Train CE 3.355
+Batch 1900 Train CE 3.305
+Batch 2000 Train CE 3.281
+Running validation ... Validation CE 3.308
+Batch 2100 Train CE 3.289
+Batch 2200 Train CE 3.343
+Batch 2300 Train CE 3.304
+Batch 2400 Train CE 3.291
+Batch 2500 Train CE 3.313
+Batch 2600 Train CE 3.345
+Batch 2700 Train CE 3.349
+Batch 2800 Train CE 3.307
+Batch 2900 Train CE 3.317
+Batch 3000 Train CE 3.283
+Running validation ... Validation CE 3.316
+Batch 3100 Train CE 3.292
+Batch 3200 Train CE 3.284
+Batch 3300 Train CE 3.278
+Batch 3400 Train CE 3.321
+Batch 3500 Train CE 3.327
+Batch 3600 Train CE 3.315
+Batch 3700 Train CE 3.284
+Average Training CE 3.316
+Epoch 8
+Batch 100 Train CE 2.645
+Batch 200 Train CE 3.324
+Batch 300 Train CE 3.312
+Batch 400 Train CE 3.314
+Batch 500 Train CE 3.300
+Batch 600 Train CE 3.333
+Batch 700 Train CE 3.323
+Batch 800 Train CE 3.297
+Batch 900 Train CE 3.332
+Batch 1000 Train CE 3.307
+Running validation ... Validation CE 3.314
+Batch 1100 Train CE 3.280
+Batch 1200 Train CE 3.302
+Batch 1300 Train CE 3.298
+Batch 1400 Train CE 3.333
+Batch 1500 Train CE 3.303
+Batch 1600 Train CE 3.292
+Batch 1700 Train CE 3.279
+Batch 1800 Train CE 3.331
+Batch 1900 Train CE 3.309
+Batch 2000 Train CE 3.288
+Running validation ... Validation CE 3.319
+Batch 2100 Train CE 3.295
+Batch 2200 Train CE 3.329
+Batch 2300 Train CE 3.295
+Batch 2400 Train CE 3.283
+Batch 2500 Train CE 3.300
+Batch 2600 Train CE 3.339
+Batch 2700 Train CE 3.375
+Batch 2800 Train CE 3.304
+Batch 2900 Train CE 3.308
+Batch 3000 Train CE 3.301
+Running validation ... Validation CE 3.330
+Batch 3100 Train CE 3.291
+Batch 3200 Train CE 3.295
+Batch 3300 Train CE 3.260
+Batch 3400 Train CE 3.316
+Batch 3500 Train CE 3.320
+Batch 3600 Train CE 3.320
+Batch 3700 Train CE 3.281
+Average Training CE 3.307
+Epoch 9
+Batch 100 Train CE 2.636
+Batch 200 Train CE 3.314
+Batch 300 Train CE 3.294
+Batch 400 Train CE 3.305
+Batch 500 Train CE 3.271
+Batch 600 Train CE 3.314
+Batch 700 Train CE 3.306
+Batch 800 Train CE 3.289
+Batch 900 Train CE 3.324
+Batch 1000 Train CE 3.312
+Running validation ... Validation CE 3.319
+Batch 1100 Train CE 3.283
+Batch 1200 Train CE 3.290
+Batch 1300 Train CE 3.284
+Batch 1400 Train CE 3.324
+Batch 1500 Train CE 3.312
+Batch 1600 Train CE 3.309
+Batch 1700 Train CE 3.291
+Batch 1800 Train CE 3.337
+Batch 1900 Train CE 3.300
+Batch 2000 Train CE 3.291
+Running validation ... Validation CE 3.335
+Batch 2100 Train CE 3.282
+Batch 2200 Train CE 3.332
+Batch 2300 Train CE 3.286
+Batch 2400 Train CE 3.289
+Batch 2500 Train CE 3.298
+Batch 2600 Train CE 3.332
+Batch 2700 Train CE 3.331
+Batch 2800 Train CE 3.299
+Batch 2900 Train CE 3.304
+Batch 3000 Train CE 3.276
+Running validation ... Validation CE 3.326
+Batch 3100 Train CE 3.288
+Batch 3200 Train CE 3.281
+Batch 3300 Train CE 3.247
+Batch 3400 Train CE 3.296
+Batch 3500 Train CE 3.292
+Batch 3600 Train CE 3.304
+Batch 3700 Train CE 3.273
+Average Training CE 3.299
+Epoch 10
+Batch 100 Train CE 2.634
+Batch 200 Train CE 3.306
+Batch 300 Train CE 3.273
+Batch 400 Train CE 3.291
+Batch 500 Train CE 3.279
+Batch 600 Train CE 3.327
+Batch 700 Train CE 3.316
+Batch 800 Train CE 3.276
+Batch 900 Train CE 3.311
+Batch 1000 Train CE 3.300
+Running validation ... Validation CE 3.308
+Batch 1100 Train CE 3.259
+Batch 1200 Train CE 3.303
+Batch 1300 Train CE 3.280
+Batch 1400 Train CE 3.326
+Batch 1500 Train CE 3.294
+Batch 1600 Train CE 3.299
+Batch 1700 Train CE 3.282
+Batch 1800 Train CE 3.332
+Batch 1900 Train CE 3.293
+Batch 2000 Train CE 3.285
+Running validation ... Validation CE 3.313
+Batch 2100 Train CE 3.275
+Batch 2200 Train CE 3.296
+Batch 2300 Train CE 3.278
+Batch 2400 Train CE 3.281
+Batch 2500 Train CE 3.291
+Batch 2600 Train CE 3.322
+Batch 2700 Train CE 3.320
+Batch 2800 Train CE 3.294
+Batch 2900 Train CE 3.296
+Batch 3000 Train CE 3.283
+Running validation ... Validation CE 3.306
+Batch 3100 Train CE 3.273
+Batch 3200 Train CE 3.255
+Batch 3300 Train CE 3.232
+Batch 3400 Train CE 3.277
+Batch 3500 Train CE 3.276
+Batch 3600 Train CE 3.294
+Batch 3700 Train CE 3.256
+
+** result
+Average Training CE 3.290
+Finished Training.
+Final Training CE 3.290
+Final Validation CE 3.266
+Final Test CE 3.271
+Training took 522.10 seconds
+>>
+
+* Train(10) mem = 0.5, rate =0.001 
+rate = 0.001 ; 10 次以后
+
+** log
+>> train(10);
+Epoch 1
+Batch 100 Train CE 5.352
+Batch 200 Train CE 5.046
+Batch 300 Train CE 4.862
+Batch 400 Train CE 4.795
+Batch 500 Train CE 4.722
+Batch 600 Train CE 4.719
+Batch 700 Train CE 4.647
+Batch 800 Train CE 4.617
+Batch 900 Train CE 4.632
+Batch 1000 Train CE 4.584
+Running validation ... Validation CE 4.582
+Batch 1100 Train CE 4.561
+Batch 1200 Train CE 4.565
+Batch 1300 Train CE 4.561
+Batch 1400 Train CE 4.559
+Batch 1500 Train CE 4.506
+Batch 1600 Train CE 4.527
+Batch 1700 Train CE 4.507
+Batch 1800 Train CE 4.502
+Batch 1900 Train CE 4.499
+Batch 2000 Train CE 4.474
+Running validation ... Validation CE 4.486
+Batch 2100 Train CE 4.488
+Batch 2200 Train CE 4.469
+Batch 2300 Train CE 4.488
+Batch 2400 Train CE 4.461
+Batch 2500 Train CE 4.469
+Batch 2600 Train CE 4.486
+Batch 2700 Train CE 4.480
+Batch 2800 Train CE 4.457
+Batch 2900 Train CE 4.450
+Batch 3000 Train CE 4.432
+Running validation ... Validation CE 4.448
+Batch 3100 Train CE 4.433
+Batch 3200 Train CE 4.437
+Batch 3300 Train CE 4.415
+Batch 3400 Train CE 4.443
+Batch 3500 Train CE 4.420
+Batch 3600 Train CE 4.436
+Batch 3700 Train CE 4.414
+Average Training CE 4.564
+Epoch 2
+Batch 100 Train CE 3.564
+Batch 200 Train CE 4.438
+Batch 300 Train CE 4.416
+Batch 400 Train CE 4.427
+Batch 500 Train CE 4.397
+Batch 600 Train CE 4.446
+Batch 700 Train CE 4.399
+Batch 800 Train CE 4.391
+Batch 900 Train CE 4.441
+Batch 1000 Train CE 4.412
+Running validation ... Validation CE 4.418
+Batch 1100 Train CE 4.408
+Batch 1200 Train CE 4.426
+Batch 1300 Train CE 4.427
+Batch 1400 Train CE 4.440
+Batch 1500 Train CE 4.402
+Batch 1600 Train CE 4.422
+Batch 1700 Train CE 4.409
+Batch 1800 Train CE 4.411
+Batch 1900 Train CE 4.416
+Batch 2000 Train CE 4.393
+Running validation ... Validation CE 4.410
+Batch 2100 Train CE 4.416
+Batch 2200 Train CE 4.405
+Batch 2300 Train CE 4.419
+Batch 2400 Train CE 4.398
+Batch 2500 Train CE 4.409
+Batch 2600 Train CE 4.429
+Batch 2700 Train CE 4.431
+Batch 2800 Train CE 4.407
+Batch 2900 Train CE 4.403
+Batch 3000 Train CE 4.386
+Running validation ... Validation CE 4.404
+Batch 3100 Train CE 4.392
+Batch 3200 Train CE 4.397
+Batch 3300 Train CE 4.376
+Batch 3400 Train CE 4.404
+Batch 3500 Train CE 4.387
+Batch 3600 Train CE 4.402
+Batch 3700 Train CE 4.382
+Average Training CE 4.411
+Epoch 3
+Batch 100 Train CE 3.540
+Batch 200 Train CE 4.411
+Batch 300 Train CE 4.386
+Batch 400 Train CE 4.398
+Batch 500 Train CE 4.371
+Batch 600 Train CE 4.421
+Batch 700 Train CE 4.374
+Batch 800 Train CE 4.367
+Batch 900 Train CE 4.419
+Batch 1000 Train CE 4.391
+Running validation ... Validation CE 4.398
+Batch 1100 Train CE 4.387
+Batch 1200 Train CE 4.408
+Batch 1300 Train CE 4.408
+Batch 1400 Train CE 4.420
+Batch 1500 Train CE 4.387
+Batch 1600 Train CE 4.405
+Batch 1700 Train CE 4.391
+Batch 1800 Train CE 4.394
+Batch 1900 Train CE 4.400
+Batch 2000 Train CE 4.378
+Running validation ... Validation CE 4.395
+Batch 2100 Train CE 4.402
+Batch 2200 Train CE 4.392
+Batch 2300 Train CE 4.404
+Batch 2400 Train CE 4.385
+Batch 2500 Train CE 4.395
+Batch 2600 Train CE 4.417
+Batch 2700 Train CE 4.419
+Batch 2800 Train CE 4.395
+Batch 2900 Train CE 4.391
+Batch 3000 Train CE 4.374
+Running validation ... Validation CE 4.393
+Batch 3100 Train CE 4.381
+Batch 3200 Train CE 4.386
+Batch 3300 Train CE 4.366
+Batch 3400 Train CE 4.393
+Batch 3500 Train CE 4.378
+Batch 3600 Train CE 4.392
+Batch 3700 Train CE 4.372
+Average Training CE 4.394
+Epoch 4
+Batch 100 Train CE 3.533
+Batch 200 Train CE 4.402
+Batch 300 Train CE 4.376
+Batch 400 Train CE 4.389
+Batch 500 Train CE 4.363
+Batch 600 Train CE 4.413
+Batch 700 Train CE 4.367
+Batch 800 Train CE 4.359
+Batch 900 Train CE 4.412
+Batch 1000 Train CE 4.384
+Running validation ... Validation CE 4.390
+Batch 1100 Train CE 4.380
+Batch 1200 Train CE 4.401
+Batch 1300 Train CE 4.401
+Batch 1400 Train CE 4.413
+Batch 1500 Train CE 4.381
+Batch 1600 Train CE 4.398
+Batch 1700 Train CE 4.385
+Batch 1800 Train CE 4.387
+Batch 1900 Train CE 4.394
+Batch 2000 Train CE 4.372
+Running validation ... Validation CE 4.389
+Batch 2100 Train CE 4.396
+Batch 2200 Train CE 4.387
+Batch 2300 Train CE 4.398
+Batch 2400 Train CE 4.379
+Batch 2500 Train CE 4.390
+Batch 2600 Train CE 4.411
+Batch 2700 Train CE 4.415
+Batch 2800 Train CE 4.390
+Batch 2900 Train CE 4.386
+Batch 3000 Train CE 4.369
+Running validation ... Validation CE 4.389
+Batch 3100 Train CE 4.377
+Batch 3200 Train CE 4.382
+Batch 3300 Train CE 4.361
+Batch 3400 Train CE 4.388
+Batch 3500 Train CE 4.373
+Batch 3600 Train CE 4.387
+Batch 3700 Train CE 4.368
+Average Training CE 4.388
+Epoch 5
+Batch 100 Train CE 3.530
+Batch 200 Train CE 4.398
+Batch 300 Train CE 4.372
+Batch 400 Train CE 4.385
+Batch 500 Train CE 4.359
+Batch 600 Train CE 4.409
+Batch 700 Train CE 4.363
+Batch 800 Train CE 4.355
+Batch 900 Train CE 4.409
+Batch 1000 Train CE 4.380
+Running validation ... Validation CE 4.387
+Batch 1100 Train CE 4.376
+Batch 1200 Train CE 4.398
+Batch 1300 Train CE 4.398
+Batch 1400 Train CE 4.410
+Batch 1500 Train CE 4.378
+Batch 1600 Train CE 4.395
+Batch 1700 Train CE 4.381
+Batch 1800 Train CE 4.384
+Batch 1900 Train CE 4.390
+Batch 2000 Train CE 4.369
+Running validation ... Validation CE 4.386
+Batch 2100 Train CE 4.394
+Batch 2200 Train CE 4.384
+Batch 2300 Train CE 4.394
+Batch 2400 Train CE 4.376
+Batch 2500 Train CE 4.388
+Batch 2600 Train CE 4.409
+Batch 2700 Train CE 4.413
+Batch 2800 Train CE 4.387
+Batch 2900 Train CE 4.384
+Batch 3000 Train CE 4.366
+Running validation ... Validation CE 4.386
+Batch 3100 Train CE 4.375
+Batch 3200 Train CE 4.379
+Batch 3300 Train CE 4.359
+Batch 3400 Train CE 4.385
+Batch 3500 Train CE 4.371
+Batch 3600 Train CE 4.385
+Batch 3700 Train CE 4.366
+Average Training CE 4.385
+Epoch 6
+Batch 100 Train CE 3.528
+Batch 200 Train CE 4.396
+Batch 300 Train CE 4.369
+Batch 400 Train CE 4.382
+Batch 500 Train CE 4.357
+Batch 600 Train CE 4.407
+Batch 700 Train CE 4.361
+Batch 800 Train CE 4.353
+Batch 900 Train CE 4.407
+Batch 1000 Train CE 4.378
+Running validation ... Validation CE 4.385
+Batch 1100 Train CE 4.374
+Batch 1200 Train CE 4.397
+Batch 1300 Train CE 4.396
+Batch 1400 Train CE 4.408
+Batch 1500 Train CE 4.377
+Batch 1600 Train CE 4.393
+Batch 1700 Train CE 4.379
+Batch 1800 Train CE 4.382
+Batch 1900 Train CE 4.388
+Batch 2000 Train CE 4.367
+Running validation ... Validation CE 4.385
+Batch 2100 Train CE 4.392
+Batch 2200 Train CE 4.383
+Batch 2300 Train CE 4.392
+Batch 2400 Train CE 4.374
+Batch 2500 Train CE 4.386
+Batch 2600 Train CE 4.407
+Batch 2700 Train CE 4.412
+Batch 2800 Train CE 4.385
+Batch 2900 Train CE 4.382
+Batch 3000 Train CE 4.364
+Running validation ... Validation CE 4.384
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.377
+Batch 3300 Train CE 4.357
+Batch 3400 Train CE 4.383
+Batch 3500 Train CE 4.369
+Batch 3600 Train CE 4.383
+Batch 3700 Train CE 4.365
+Average Training CE 4.383
+Epoch 7
+Batch 100 Train CE 3.527
+Batch 200 Train CE 4.395
+Batch 300 Train CE 4.368
+Batch 400 Train CE 4.381
+Batch 500 Train CE 4.355
+Batch 600 Train CE 4.405
+Batch 700 Train CE 4.360
+Batch 800 Train CE 4.352
+Batch 900 Train CE 4.405
+Batch 1000 Train CE 4.377
+Running validation ... Validation CE 4.384
+Batch 1100 Train CE 4.372
+Batch 1200 Train CE 4.396
+Batch 1300 Train CE 4.395
+Batch 1400 Train CE 4.406
+Batch 1500 Train CE 4.376
+Batch 1600 Train CE 4.392
+Batch 1700 Train CE 4.378
+Batch 1800 Train CE 4.381
+Batch 1900 Train CE 4.387
+Batch 2000 Train CE 4.366
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.391
+Batch 2200 Train CE 4.381
+Batch 2300 Train CE 4.391
+Batch 2400 Train CE 4.373
+Batch 2500 Train CE 4.385
+Batch 2600 Train CE 4.406
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.384
+Batch 2900 Train CE 4.381
+Batch 3000 Train CE 4.363
+Running validation ... Validation CE 4.383
+Batch 3100 Train CE 4.372
+Batch 3200 Train CE 4.376
+Batch 3300 Train CE 4.356
+Batch 3400 Train CE 4.382
+Batch 3500 Train CE 4.368
+Batch 3600 Train CE 4.382
+Batch 3700 Train CE 4.364
+Average Training CE 4.382
+Epoch 8
+Batch 100 Train CE 3.526
+Batch 200 Train CE 4.394
+Batch 300 Train CE 4.367
+Batch 400 Train CE 4.380
+Batch 500 Train CE 4.355
+Batch 600 Train CE 4.404
+Batch 700 Train CE 4.359
+Batch 800 Train CE 4.351
+Batch 900 Train CE 4.404
+Batch 1000 Train CE 4.376
+Running validation ... Validation CE 4.383
+Batch 1100 Train CE 4.371
+Batch 1200 Train CE 4.395
+Batch 1300 Train CE 4.394
+Batch 1400 Train CE 4.405
+Batch 1500 Train CE 4.375
+Batch 1600 Train CE 4.391
+Batch 1700 Train CE 4.377
+Batch 1800 Train CE 4.380
+Batch 1900 Train CE 4.386
+Batch 2000 Train CE 4.365
+Running validation ... Validation CE 4.383
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.381
+Batch 2300 Train CE 4.390
+Batch 2400 Train CE 4.373
+Batch 2500 Train CE 4.385
+Batch 2600 Train CE 4.405
+Batch 2700 Train CE 4.410
+Batch 2800 Train CE 4.383
+Batch 2900 Trapin CE 4.380
+Batch 3000 Train CE 4.362
+Running validation ... Validation CE 4.383
+Batch 3100 Train CE 4.372
+Batch 3200 Train CE 4.376
+Batch 3300 Train CE 4.355
+Batch 3400 Train CE 4.381
+Batch 3500 Train CE 4.368
+Batch 3600 Train CE 4.382
+Batch 3700 Train CE 4.363
+Average Training CE 4.381
+Epoch 9
+Batch 100 Train CE 3.525
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.379
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.404
+Batch 700 Train CE 4.358
+Batch 800 Train CE 4.350
+Batch 900 Train CE 4.404
+Batch 1000 Train CE 4.375
+Running validation ... Validation CE 4.382
+Batch 1100 Train CE 4.371
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.393
+Batch 1400 Train CE 4.404
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.377
+Batch 1800 Train CE 4.379
+Batch 1900 Train CE 4.386
+Batch 2000 Train CE 4.364
+Running validation ... Validation CE 4.382
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.380
+Batch 2300 Train CE 4.390
+Batch 2400 Train CE 4.372
+Batch 2500 Train CE 4.384
+Batch 2600 Train CE 4.405
+Batch 2700 Train CE 4.410
+Batch 2800 Train CE 4.383
+Batch 2900 Train CE 4.379
+Batch 3000 Train CE 4.362
+Running validation ... Validation CE 4.382
+Batch 3100 Train CE 4.371
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.355
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.381
+Batch 3700 Train CE 4.363
+Average Training CE 4.380
+Epoch 10
+Batch 100 Train CE 3.525
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.378
+Batch 500 Train CE 4.353
+Batch 600 Train CE 4.403
+Batch 700 Train CE 4.357
+Batch 800 Train CE 4.349
+Batch 900 Train CE 4.403
+Batch 1000 Train CE 4.375
+Running validation ... Validation CE 4.382
+Batch 1100 Train CE 4.370
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.393
+Batch 1400 Train CE 4.404
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.379
+Batch 1900 Train CE 4.385
+Batch 2000 Train CE 4.364
+Running validation ... Validation CE 4.382
+Batch 2100 Train CE 4.389
+Batch 2200 Train CE 4.380
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.371
+Batch 2500 Train CE 4.384
+Batch 2600 Train CE 4.404
+Batch 2700 Train CE 4.410
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.379
+Batch 3000 Train CE 4.361
+Running validation ... Validation CE 4.382
+Batch 3100 Train CE 4.371
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.381
+Batch 3700 Train CE 4.362
+
+** result
+Average Training CE 4.380
+Finished Training.
+Final Training CE 4.380
+Final Validation CE 4.382
+Final Test CE 4.388
+Training took 476.16 seconds
+
+* Train(10) mem = 0.5, rate =0.1
+** log
+#### rate 0.01 mem= 0.5 times = 10
+>> train(10); % 0.1
+Epoch 1
+Batch 100 Train CE 4.827
+Batch 200 Train CE 4.535
+Batch 300 Train CE 4.455
+Batch 400 Train CE 4.439
+Batch 500 Train CE 4.395
+Batch 600 Train CE 4.435
+Batch 700 Train CE 4.384
+Batch 800 Train CE 4.371
+Batch 900 Train CE 4.421
+Batch 1000 Train CE 4.391
+Running validation ... Validation CE 4.395
+Batch 1100 Train CE 4.384
+Batch 1200 Train CE 4.405
+Batch 1300 Train CE 4.403
+Batch 1400 Train CE 4.415
+Batch 1500 Train CE 4.382
+Batch 1600 Train CE 4.398
+Batch 1700 Train CE 4.384
+Batch 1800 Train CE 4.386
+Batch 1900 Train CE 4.392
+Batch 2000 Train CE 4.370
+Running validation ... Validation CE 4.389
+Batch 2100 Train CE 4.395
+Batch 2200 Train CE 4.384
+Batch 2300 Train CE 4.394
+Batch 2400 Train CE 4.376
+Batch 2500 Train CE 4.388
+Batch 2600 Train CE 4.408
+Batch 2700 Train CE 4.414
+Batch 2800 Train CE 4.386
+Batch 2900 Train CE 4.382
+Batch 3000 Train CE 4.364
+Running validation ... Validation CE 4.384
+Batch 3100 Train CE 4.375
+Batch 3200 Train CE 4.377
+Batch 3300 Train CE 4.357
+Batch 3400 Train CE 4.383
+Batch 3500 Train CE 4.370
+Batch 3600 Train CE 4.383
+Batch 3700 Train CE 4.365
+Average Training CE 4.407
+Epoch 2
+Batch 100 Train CE 3.526
+Batch 200 Train CE 4.395
+Batch 300 Train CE 4.367
+Batch 400 Train CE 4.380
+Batch 500 Train CE 4.355
+Batch 600 Train CE 4.404
+Batch 700 Train CE 4.360
+Batch 800 Train CE 4.350
+Batch 900 Train CE 4.405
+Batch 1000 Train CE 4.377
+Running validation ... Validation CE 4.382
+Batch 1100 Train CE 4.371
+Batch 1200 Train CE 4.396
+Batch 1300 Train CE 4.394
+Batch 1400 Train CE 4.405
+Batch 1500 Train CE 4.375
+Batch 1600 Train CE 4.391
+Batch 1700 Train CE 4.377
+Batch 1800 Train CE 4.380
+Batch 1900 Train CE 4.386
+Batch 2000 Train CE 4.365
+Running validation ... Validation CE 4.385
+Batch 2100 Train CE 4.391
+Batch 2200 Train CE 4.380
+Batch 2300 Train CE 4.390
+Batch 2400 Train CE 4.373
+Batch 2500 Train CE 4.385
+Batch 2600 Train CE 4.405
+Batch 2700 Train CE 4.412
+Batch 2800 Train CE 4.383
+Batch 2900 Train CE 4.379
+Batch 3000 Train CE 4.361
+Running validation ... Validation CE 4.382
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.355
+Batch 3400 Train CE 4.381
+Batch 3500 Train CE 4.368
+Batch 3600 Train CE 4.381
+Batch 3700 Train CE 4.363
+Average Training CE 4.381
+Epoch 3
+Batch 100 Train CE 3.525
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.379
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.402
+Batch 700 Train CE 4.358
+Batch 800 Train CE 4.349
+Batch 900 Train CE 4.404
+Batch 1000 Train CE 4.376
+Running validation ... Validation CE 4.381
+Batch 1100 Train CE 4.370
+Batch 1200 Train CE 4.395
+Batch 1300 Train CE 4.393
+Batch 1400 Train CE 4.404
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.379
+Batch 1900 Train CE 4.385
+Batch 2000 Train CE 4.364
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.380
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.372
+Batch 2500 Train CE 4.385
+Batch 2600 Train CE 4.405
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.383
+Batch 2900 Train CE 4.378
+Batch 3000 Train CE 4.360
+Running validation ... Validation CE 4.382
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.368
+Batch 3600 Train CE 4.381
+Batch 3700 Train CE 4.363
+Average Training CE 4.380
+Epoch 4
+Batch 100 Train CE 3.525
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.379
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.402
+Batch 700 Train CE 4.358
+Batch 800 Train CE 4.349
+Batch 900 Train CE 4.403
+Batch 1000 Train CE 4.376
+Running validation ... Validation CE 4.381
+Batch 1100 Train CE 4.370
+Batch 1200 Train CE 4.395
+Batch 1300 Train CE 4.393
+Batch 1400 Train CE 4.403
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.379
+Batch 1900 Train CE 4.385
+Batch 2000 Train CE 4.363
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.379
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.372
+Batch 2500 Train CE 4.385
+Batch 2600 Train CE 4.405
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.378
+Batch 3000 Train CE 4.360
+Running validation ... Validation CE 4.381
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.368
+Batch 3600 Train CE 4.381
+Batch 3700 Train CE 4.363
+Average Training CE 4.380
+Epoch 5
+Batch 100 Train CE 3.525
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.378
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.402
+Batch 700 Train CE 4.358
+Batch 800 Train CE 4.348
+Batch 900 Train CE 4.403
+Batch 1000 Train CE 4.376
+Running validation ... Validation CE 4.381
+Batch 1100 Train CE 4.370
+Batch 1200 Train CE 4.395
+Batch 1300 Train CE 4.392
+Batch 1400 Train CE 4.403
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.378
+Batch 1900 Train CE 4.385
+Batch 2000 Train CE 4.363
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.379
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.372
+Batch 2500 Train CE 4.385
+Batch 2600 Train CE 4.405
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.378
+Batch 3000 Train CE 4.360
+Running validation ... Validation CE 4.381
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.381
+Batch 3700 Train CE 4.363
+Average Training CE 4.380
+Epoch 6
+Batch 100 Train CE 3.525
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.378
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.402
+Batch 700 Train CE 4.358
+Batch 800 Train CE 4.348
+Batch 900 Train CE 4.403
+Batch 1000 Train CE 4.376
+Running validation ... Validation CE 4.381
+Batch 1100 Train CE 4.370
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.392
+Batch 1400 Train CE 4.403
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.378
+Batch 1900 Train CE 4.385
+Batch 2000 Train CE 4.363
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.379
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.372
+Batch 2500 Train CE 4.384
+Batch 2600 Train CE 4.404
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.378
+Batch 3000 Train CE 4.360
+Running validation ... Validation CE 4.381
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.375
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.380
+Batch 3700 Train CE 4.363
+Average Training CE 4.380
+Epoch 7
+Batch 100 Train CE 3.524
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.378
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.401
+Batch 700 Train CE 4.357
+Batch 800 Train CE 4.348
+Batch 900 Train CE 4.403
+Batch 1000 Train CE 4.375
+Running validation ... Validation CE 4.381
+Batch 1100 Train CE 4.369
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.392
+Batch 1400 Train CE 4.403
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.378
+Batch 1900 Train CE 4.385
+Batch 2000 Train CE 4.363
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.390
+Batch 2200 Train CE 4.379
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.371
+Batch 2500 Train CE 4.384
+Batch 2600 Train CE 4.404
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.378
+Batch 3000 Train CE 4.360
+Running validation ... Validation CE 4.381
+Batch 3100 Train CE 4.373
+Batch 3200 Train CE 4.374
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.380
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.380
+Batch 3700 Train CE 4.363
+Average Training CE 4.380
+Epoch 8
+Batch 100 Train CE 3.524
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.366
+Batch 400 Train CE 4.378
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.401
+Batch 700 Train CE 4.357
+Batch 800 Train CE 4.348
+Batch 900 Train CE 4.402
+Batch 1000 Train CE 4.375
+Running validation ... Validation CE 4.381
+Batch 1100 Train CE 4.369
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.392
+Batch 1400 Train CE 4.403
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.390
+Batch 1700 Train CE 4.376
+Batch 1800 Train CE 4.378
+Batch 1900 Train CE 4.384
+Batch 2000 Train CE 4.363
+Running validation ... Validation CE 4.384
+Batch 2100 Train CE 4.389
+Batch 2200 Train CE 4.379
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.371
+Batch 2500 Train CE 4.384
+Batch 2600 Train CE 4.404
+Batch 2700 Train CE 4.411
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.377
+Batch 3000 Train CE 4.359
+Running validation ... Validation CE 4.381
+Batch 3100 Train CE 4.372
+Batch 3200 Train CE 4.374
+Batch 3300 Train CE 4.354
+Batch 3400 Train CE 4.379
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.380
+Batch 3700 Train CE 4.362
+Average Training CE 4.379
+Epoch 9
+Batch 100 Train CE 3.524
+Batch 200 Train CE 4.393
+Batch 300 Train CE 4.365
+Batch 400 Train CE 4.378
+Batch 500 Train CE 4.354
+Batch 600 Train CE 4.401
+Batch 700 Train CE 4.357
+Batch 800 Train CE 4.348
+Batch 900 Train CE 4.402
+Batch 1000 Train CE 4.375
+Running validation ... Validation CE 4.380
+Batch 1100 Train CE 4.369
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.392
+Batch 1400 Train CE 4.402
+Batch 1500 Train CE 4.374
+Batch 1600 Train CE 4.389
+Batch 1700 Train CE 4.375
+Batch 1800 Train CE 4.378
+Batch 1900 Train CE 4.384
+Batch 2000 Train CE 4.362
+Running validation ... Validation CE 4.383
+Batch 2100 Train CE 4.389
+Batch 2200 Train CE 4.378
+Batch 2300 Train CE 4.389
+Batch 2400 Train CE 4.371
+Batch 2500 Train CE 4.384
+Batch 2600 Train CE 4.404
+Batch 2700 Train CE 4.410
+Batch 2800 Train CE 4.382
+Batch 2900 Train CE 4.377
+Batch 3000 Train CE 4.359
+Running validation ... Validation CE 4.381
+Batch 3100 Train CE 4.372
+Batch 3200 Train CE 4.374
+Batch 3300 Train CE 4.353
+Batch 3400 Train CE 4.379
+Batch 3500 Train CE 4.367
+Batch 3600 Train CE 4.380
+Batch 3700 Train CE 4.362
+Average Training CE 4.379
+Epoch 10
+Batch 100 Train CE 3.524
+Batch 200 Train CE 4.392
+Batch 300 Train CE 4.365
+Batch 400 Train CE 4.377
+Batch 500 Train CE 4.353
+Batch 600 Train CE 4.401
+Batch 700 Train CE 4.357
+Batch 800 Train CE 4.347
+Batch 900 Train CE 4.402
+Batch 1000 Train CE 4.375
+Running validation ... Validation CE 4.380
+Batch 1100 Train CE 4.369
+Batch 1200 Train CE 4.394
+Batch 1300 Train CE 4.391
+Batch 1400 Train CE 4.402
+Batch 1500 Train CE 4.373
+Batch 1600 Train CE 4.389
+Batch 1700 Train CE 4.375
+Batch 1800 Train CE 4.377
+Batch 1900 Train CE 4.384
+Batch 2000 Train CE 4.362
+Running validation ... Validation CE 4.383
+Batch 2100 Train CE 4.389
+Batch 2200 Train CE 4.378
+Batch 2300 Train CE 4.388
+Batch 2400 Train CE 4.371
+Batch 2500 Train CE 4.383
+Batch 2600 Train CE 4.403
+Batch 2700 Train CE 4.410
+Batch 2800 Train CE 4.381
+Batch 2900 Train CE 4.377
+Batch 3000 Train CE 4.359
+Running validation ... Validation CE 4.380
+Batch 3100 Train CE 4.372
+Batch 3200 Train CE 4.374
+Batch 3300 Train CE 4.353
+Batch 3400 Train CE 4.379
+Batch 3500 Train CE 4.366
+Batch 3600 Train CE 4.379
+Batch 3700 Train CE 4.362
+
+** result
+Average Training CE 4.379
+Finished Training.
+Final Training CE 4.379
+Final Validation CE 4.381
+Final Test CE 4.387
+Training took 475.19 seconds
+
+
+
+* train(10) : 5 embed: 100 hidden; Model A: 5 dimensional embedding, 100 dimensional hidden layer
+Average Training CE 2.815
+Finished Training.
+Final Training CE 2.815
+Final Validation CE 2.835
+Final Test CE 2.837
+Training took 256.63 seconds
+
+* train(10): 50 embed, 10 hidden; 
+Average Training CE 3.000
+Finished Training.
+Final Training CE 3.000
+Final Validation CE 3.012
+Final Test CE 3.009
+Training took 212.78 seconds
+
+* 50 dimensional embedding, 200 dimensional hidden layer
+Average Training CE 2.537
+Finished Training.
+Final Training CE 2.537
+Final Validation CE 2.610
+Final Test CE 2.619
+Training took 723.80 seconds
+>>
+
+* 100 dimensional embedding, 5 dimensional hidden layer
+Average Training CE 3.247
+Finished Training.
+Final Training CE 3.247
+Final Validation CE 3.253
+Final Test CE 3.246
+Training took 304.88 seconds
+
+
+*  50 dimensional embedding space, 200 dimensional hidden layer.   
+Model A: Momentum = 0.0
+
+** 5 times:
+Average Training CE 3.992
+Finished Training.
+Final Training CE 3.992
+Final Validation CE 3.952
+Final Test CE 3.955
+Training took 242.51 seconds
+   
+* mom = 0.5
+
+5 times:
+Average Training CE 3.317
+Finished Training.
+Final Training CE 3.317
+Final Validation CE 3.250
+Final Test CE 3.247
+Training took 243.31 seconds
+
+* mom = 0.9
+5 times
+Batch 3700 Train CE 2.668
+Average Training CE 2.713
+Finished Training.
+Final Training CE 2.713
+Final Validation CE 2.710
+Final Test CE 2.719
+Training took 244.41 seconds
+
+
+
+* nearst words could.
+>> display_nearest_words("could",model_10_09,10);
+should 3.36
+can 3.40
+may 3.90
+would 3.96
+might 3.96
+will 4.16
+also 4.71
+companies 4.86
+until 4.95
+west 4.99
+
+* empty 
+If all weights and biases in this network were set to zero and no training is performed, what will be the average cross entropy on the training set ? Please provide a numeric answer (three decimal places). [3 points]
+
+5.521
+
+13:In conclusion, what kind of words does the model put close to each other in embedding space. Choose the most appropriate answer. [3 points]
+
+Words that occur close to each other (within three words to the left or right) in many sentences.
+
