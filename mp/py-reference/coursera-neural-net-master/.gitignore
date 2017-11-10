@@ -1,0 +1,15 @@
+# Python
+*.pyc
+
+# Matlab files
+*.mat
+*.m
+
+# Virtual Environment
+*.env
+**/venv
+.venv
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+## Directory-based project format
+.idea/
